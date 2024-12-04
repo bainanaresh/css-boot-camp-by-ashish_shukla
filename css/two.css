@@ -1,0 +1,60 @@
+.card{
+    width: 300px;
+    margin: 25px auto;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid lightgray;
+
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.banner{
+    width: 300px;
+    background-color: orangered;
+    text-align: center;
+    margin: 25px auto;
+    position: sticky;
+    top: 5px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.help-btn{
+
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    width: 160px;
+    position: fixed;
+    bottom: 30px;
+    right :30px;
+}
+.card-header{
+    position: relative;
+}
+.best{
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+    font-size: 14px;
+    background-color: rgb(255, 242, 229);
+    color: rgb(73, 36, 0);;
+    padding: 2px 12px;
+    border-radius: 30px;
+}
+.must{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    margin: 10px;
+    font-size: 14px;
+    background-color: rgb(229, 255, 232);
+    color: rgb(0, 46, 7);;
+    padding: 2px 12px;
+    border-radius: 30px;
+}
